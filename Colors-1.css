@@ -1,0 +1,23 @@
+p {
+    color: red;
+    font-size: 48px;
+  }
+ h1 {
+     color: purple;
+    font-size: 32px
+ } 
+ h2 {
+   Color: Green;
+   font-size: 25px;
+   font-family: fantasy;
+ }
+ li {
+   Color: blue;
+   font-size: 35px;
+   font-family: monospace;
+ }
+ h3 {
+   color: orange;
+   font-size: 31px;
+   font-family: 'Times New Roman', Times, serif;
+ }
