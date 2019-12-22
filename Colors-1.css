@@ -8,16 +8,27 @@ p {
  } 
  h2 {
    Color: Green;
-   font-size: 25px;
+   font-size: 40px;
    font-family: fantasy;
  }
+
  li {
    Color: blue;
    font-size: 35px;
    font-family: monospace;
  }
+
  h3 {
    color: orange;
    font-size: 31px;
    font-family: 'Times New Roman', Times, serif;
+ }
+ #box {
+   height: 20%;
+   width: 30%;
+ }
+ #background {
+  background-Color: lightblue;
+  height: 100%;
+  width: 75%;
  }
