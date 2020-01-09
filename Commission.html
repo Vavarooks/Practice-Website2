@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="Colors-1.css">
+    <link rel="php" href= "php.php">
     <title>Arts and Such</title>
   </head>
 
@@ -60,7 +61,7 @@
                   </button>
                 </div>
                 <div class="modal-body">
-                  <form action="Sumbit.html" method="post">
+                  <form method="post" action="php.php">
     
                     <div class="form-group">
                       <label for="exampleFormControlInput1">Name:</label>
@@ -73,7 +74,7 @@
                         <label for="exampleFormControlInput1">Message</label>
                         <input type="email" class="form-control" id="exampleFormControlInput1">
                       </div>
-                      <button class="btn btn-primary" type="submit">Send your review</button>
+                      <button class="btn btn-primary" type="submit" action="Sumbit.html">Send your review</button>
                   </form>
                     </div>
                 </div>  
@@ -89,7 +90,7 @@
   <div class="container">
     <hr class="my-4">
     <h1>Send in a comission and we will deliver!</h1>
-        <form action="Form.html" method="post">
+        <form action="Form.html" method="post" action="php.php" >
           <div class="form-group">
             <label for="exampleFormControlInput1">Name:</label>
             <input type="text" class="form-control" id="name" name="user_name" placeholder="Name">
@@ -111,7 +112,7 @@
           </div>
           <div class="form-group">
             <label for="exampleFormControlInput1">Message</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1">
+            <input type="message" class="form-control" id="exampleFormControlInput1">
           </div>
           <button class="btn btn-primary" type="submit">Send your message</button>
         </form> 
