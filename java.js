@@ -1,6 +1,3 @@
-
-<?php
-
 if($_POST["submit"]) {
     $recipient="babavava420@gmail.com";
     $subject="Form to email message";
@@ -14,5 +11,3 @@ if($_POST["submit"]) {
 
     $thankYou="<p>Thank you! Your message has been sent.</p>";
 }
-
-?>
