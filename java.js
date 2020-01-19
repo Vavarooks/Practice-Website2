@@ -14,6 +14,7 @@
 
 
 var form = document.getElementById("name");
-form.onsubmit = function() {
-console.log(form.name)
+form.onsubmit = function(e) {
+    e.preventDefault();
+console.log(form.name.value)
 };
