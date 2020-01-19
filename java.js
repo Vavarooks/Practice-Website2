@@ -9,5 +9,11 @@
 
 //     mail($recipient, $subject, $mailBody, "From: $sender <$senderEmail>");
 
-//     $thankYou="<p>Thank you! Your message has been sent.</p>";
-// }
+//     $thankYou="<p>Thank you! Your message has been sent.</p
+
+
+
+var form = document.getElementById("name");
+form.onsubmit = function() {
+console.log(form.name)
+};
