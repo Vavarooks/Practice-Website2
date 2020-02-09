@@ -4,7 +4,7 @@
 <head>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="stylesheet" href="Colors-1.css">
+  <link rel="stylesheet" href="../assets/css/Colors-1.css">
   <meta charset="utf-8">
   <title>Arts and Such</title>
 </head>
@@ -16,12 +16,12 @@
       <h5 class="mt-0">Home Page</h5>
     </div>
   </div>
-  
+
   <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-        aria-haspopup="true" aria-expanded="false">
-        Website Info
-      </a>
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+      aria-haspopup="true" aria-expanded="false">
+      Website Info
+    </a>
     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
       <a class="dropdown-item">
         <div class="card" style="width: 100%;">
@@ -56,41 +56,40 @@
 
     <li class="nav-item">
       <a class="nav-link">Warning</a><button type="button" class="btn btn-primary" data-toggle="modal"
-      data-target="#exampleModal">!
-    </button>
-        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-          aria-hidden="true">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel"><em>Prices may vary for commison art.</em></h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
-              <div class="modal-body">
-                <form method="post">
+        data-target="#exampleModal">!
+      </button>
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel"><em>Prices may vary for commison art.</em></h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form method="post">
 
+                <div class="form-group">
+                  <label for="exampleFormControlInput1">Name:</label>
+                  <input type="text" class="form-control" id="name" name="user_name" placeholder="Name">
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlInput1">Email address:</label>
+                  <input type="email" class="form-control" id="email" placeholder="name@example.com">
                   <div class="form-group">
-                    <label for="exampleFormControlInput1">Name:</label>
-                    <input type="text" class="form-control" id="name" name="user_name" placeholder="Name">
+                    <label for="exampleFormControlInput1">Message:</label>
+                    <input type="email" class="form-control" id="message">
                   </div>
-                  <div class="form-group">
-                    <label for="exampleFormControlInput1">Email address:</label>
-                    <input type="email" class="form-control" id="email"
-                      placeholder="name@example.com">
-                    <div class="form-group">
-                      <label for="exampleFormControlInput1">Message:</label>
-                      <input type="email" class="form-control" id="message">
-                    </div>
-                    <button class="btn btn-primary" type="submit" action="Sumbit.html">Send your review</button>
-                </form>
-              </div>
+                  <button class="btn btn-primary" type="submit" action="Sumbit.html">Send your review</button>
+              </form>
             </div>
           </div>
         </div>
-        </div>
-        </div>
+      </div>
+      </div>
+      </div>
       </a>
     </li>
 
@@ -141,7 +140,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
     crossorigin="anonymous"></script>
-    <script src="./java.js"></script>
+  <script src="../assets/javascript/java.js"></script>
 
 </body>
 
