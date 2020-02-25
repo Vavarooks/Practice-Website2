@@ -13,10 +13,11 @@
 </head>
 
 <body>
-  <li class="nav-item dropdown">
-    <a class="nav-link">Warning</a><button type="button" class="btn btn-primary" data-toggle="modal"
-      data-target="#exampleModal"><i class="fas fa-exclamation-triangle"></i>
-    </button>
+  <h1 class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+      aria-haspopup="true" aria-expanded="false">
+      Website Info
+    </a>
     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
       <a class="dropdown-item">
         <div class="card" style="width: 100%;">
@@ -28,9 +29,8 @@
         </div>
       </a>
       <div class="dropdown-divider"></div>
-  </li>
+    </h1>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-
     <a class="navbar-brand" href="HTML-1.html">Home</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,47 +49,44 @@
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <li class="nav-item">
-      <a class="nav-link"><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-          Warning
-        </button>
-        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-          aria-hidden="true">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel"><em>Prices may vary for commison art.</em></h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
-              <div class="modal-body">
-                <form method="post" action="Sumbit.html">
-
-                  <div class="form-group">
-                    <label for="exampleFormControlInput1">Name:</label>
-                    <input type="text" class="form-control" id="name" name="user_name" placeholder="Name">
-                  </div>
-                  <div class="form-group">
-                    <label for="exampleFormControlInput1">Email address:</label>
-                    <input type="email" class="form-control" id="email" placeholder="name@example.com">
-                    <div class="form-group">
-                      <label for="exampleFormControlInput1">Message:</label>
-                      <input type="email" class="form-control" id="message">
-                    </div>
-                    <button class="btn btn-primary" type="submit" action="Sumbit.html">Send your review</button>
-
-                </form>
-              </div>
+    <h1 class="nav-item">
+      <a class="nav-link"></a><button type="button" class="btn btn-primary" data-toggle="modal"
+        data-target="#exampleModal"><i class="fas fa-exclamation-triangle"></i>
+      </button>
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel"><em>Prices may vary for commison art.</em></h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
             </div>
+            <div class="modal-body">
+              <form method="post">
 
-
+                <div class="form-group">
+                  <label for="exampleFormControlInput1">Name:</label>
+                  <input type="text" class="form-control" id="name" name="user_name" placeholder="Name">
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlInput1">Email address:</label>
+                  <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                  <div class="form-group">
+                    <label for="exampleFormControlInput1">Message:</label>
+                    <input type="email" class="form-control" id="message">
+                  </div>
+                  <button class="btn btn-primary" type="submit" action="Sumbit.html">Send your review</button>
+              </form>
+            </div>
           </div>
         </div>
-        </div>
-        </div>
+      </div>
+      </div>
+      </div>
       </a>
-    </li>
+    </h1>
   </nav>
 
   </div>
