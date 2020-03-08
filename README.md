@@ -13,3 +13,5 @@
     - colors-1.css ~ *obvioulsy for font and color changes, also some size fixing*
 
 - Lastly I added in my own placeholder photos for where real images made by the artist could be placed.
+
+## One day this will be a real site but today is not that day.
