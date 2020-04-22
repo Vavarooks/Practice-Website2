@@ -1,0 +1,22 @@
+{
+  "name": "gibberish",
+  "version": "1.0.0",
+  "description": "Practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vavarooks/shenanigans.git"
+  },
+  "author": "Vanessa Emerick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vavarooks/shenanigans/issues"
+  },
+  "homepage": "https://github.com/Vavarooks/shenanigans#readme",
+  "dependencies": {
+    "react-router-dom": "^5.1.2"
+  }
+}
