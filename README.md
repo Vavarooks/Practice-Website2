@@ -16,5 +16,6 @@
     - colors-1.css ~ *obvioulsy for font and color changes, also some size fixing*
 
 - Lastly I added in my own placeholder photos for where real images made by the artist could be placed.
+- Update: The images are broken at the moment and I am working to get them functioning again.
 
 ## One day this will be a real site but today is not that day. Another thing I just want to state the email function is the thing I want to make work first.
